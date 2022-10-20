@@ -98,7 +98,7 @@ button:hover {
 
 .section p {
     font-size: 25px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     padding: 15px;
     text-align: justify;
 }
@@ -119,6 +119,11 @@ button:hover {
     margin: 15px;
 }
 
+.section1 img:hover {
+    transform: scale(1.5);
+    transition: ease 2s;
+}
+
 .section2 {
     display: flex;
     flex-direction: row-reverse;
@@ -128,6 +133,12 @@ button:hover {
 .section2 img {
     max-width: 50%;
     margin: 15px;
+}
+
+.section2 img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: ease 2s;
 }
 
 .section3 {
@@ -140,6 +151,11 @@ button:hover {
 .section3 figcaption {
     text-align: center;
 
+}
+
+.section3 img:hover {
+    transform: scale(1.5);
+    transition: ease 2s;
 }
 
 
@@ -183,6 +199,10 @@ button:hover {
 
 }
 
+.section5 {
+    padding: 25px;
+}
+
 .section5 ul {
     display: grid;
     grid-template-columns: auto auto;
@@ -191,5 +211,5 @@ button:hover {
 .section5 a {
     text-decoration: none;
     cursor: grab;
-    color: #fff;
+    color: rgb(183, 191, 238);
 }
