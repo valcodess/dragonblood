@@ -1,0 +1,147 @@
+body, html {
+    width: auto;
+    height: 100%;
+    background-color: #000;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    text-shadow: 0 0 5px #ffffff;
+    font-size: 22px;
+    margin: 5px;
+
+}
+
+#nav a:hover {
+    background-image: linear-gradient(to right, red 30%, #7575a5 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+#nav h1 {
+    background-image: linear-gradient(to right, red 5%, #7575a5 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px #ffffff;
+    font-size: 25px;
+}
+
+#nav h1:hover {
+    background-image: linear-gradient(to right, #a8762b 5%, #702711 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px #ffffff;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 4px;
+    
+}
+
+
+.container h1 {
+    font-size: 50px;
+    background-image: url('https://data.whicdn.com/images/306414854/original.gif');
+    background-position: left;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px #fff;
+}
+
+.container p {
+    padding: 15px;
+    font-size: 18px;
+    text-shadow: 0 0 15px #fff;
+}
+
+.container button {
+    background-color: maroon;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    text-shadow: 0 0 25px #000;
+    color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    position: relative;
+    left: 25px;
+    right: 25px;
+ 
+}
+
+button:hover {
+    background-color: #a1a1a1;
+    color: #4d4d91;
+}
+
+.section p {
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.section1 p {
+    margin: 45px;
+    padding: 15px;
+}
+
+.section1 img {
+    max-width: 50%;
+    margin: 15px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.section2 img {
+    max-width: 50%;
+    margin: 15px;
+}
+
+.section3 {
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.section3 figcaption {
+  text-align: center;
+
+}
+
+
+.section3 img {
+    width: 100%;
+}
